@@ -267,11 +267,7 @@ class Plugin
                 __('<p><em>This content is marked private.</em></p>', 'bbpress-private-answer'),
                 $post_id
             );
-            // if ( is_feed() ) {
-            //    $content = $notice;
-            // } else {
-                $content = $notice;
-            // }
+            $content = apply_filters( "se_PrivatePost_filterContent", $notice, $content, $post_id );
         }
         return $content;
     }
