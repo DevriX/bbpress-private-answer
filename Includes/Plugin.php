@@ -267,11 +267,11 @@ class Plugin
                 __('<p><em>This content is marked private.</em></p>', 'bbpress-private-answer'),
                 $post_id
             );
-            //if ( is_feed() ) {
+            // if ( is_feed() ) {
             //    $content = $notice;
-            //} else {
+            // } else {
                 $content = $notice;
-            //}
+            // }
         }
         return $content;
     }

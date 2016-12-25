@@ -1,5 +1,12 @@
 <?php
 
+// if uninstall.php is not called by WordPress, die
+if (!defined('WP_UNINSTALL_PLUGIN')) {
+    die('Direct access not allowed.' . PHP_EOL);
+}
+
+// begin uninstall
+
 $data = array(
 	'options' => array(),
 	'umeta' => array(),
