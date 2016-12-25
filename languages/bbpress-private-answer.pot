@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-25 14:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Includes/Admin.php:61
+msgid ""
+"<strong>bbPress Private Answer notice</strong>: bbPress (parent) plugin is a "
+"requirement. Please activate install and activate bbPress to use this plugin."
+msgstr ""
+
+#: Includes/Admin.php:72
+msgid "bbPress Custom Plugin"
+msgstr ""
+
+#: Includes/Admin.php:73
+msgid "bbP Custom"
+msgstr ""
+
+#: Includes/Admin.php:128
+msgid "ERROR: authentication failed."
+msgstr ""
+
+#: Includes/Admin.php:160
+msgid "General Settings saved successfully!"
+msgstr ""
+
+#: Includes/Admin.php:173
+msgid "bbPress Private Answer &rsaquo; Settings"
+msgstr ""
+
+#: Includes/Admin.php:181
+msgid "Private Topics/Replies"
+msgstr ""
+
+#: Includes/Admin.php:183
+msgid "Field Label"
+msgstr ""
+
+#: Includes/Admin.php:187
+msgid "This label will be placed in topic/reply forms"
+msgstr ""
+
+#: Includes/Admin.php:195 Includes/Plugin.php:267
+msgid "<p><em>This content is marked private.</em></p>"
+msgstr ""
+
+#: Includes/Admin.php:198
+msgid ""
+"This custom message will be displayed instead of the topic/reply content "
+"when the post is private and the viewer has no access to it."
+msgstr ""
+
+#: Includes/Admin.php:201
+msgid "Uninstall"
+msgstr ""
+
+#: Includes/Admin.php:204
+msgid "Remove all post data upon next plugin uninstall"
+msgstr ""
+
+#: Includes/Admin.php:233 Includes/Admin.php:255
+msgid "Settings"
+msgstr ""
+
+#: Includes/Admin.php:237 Includes/Admin.php:256
+msgid "About"
+msgstr ""
+
+#: Includes/Admin.php:281
+msgid "Private Private Answer"
+msgstr ""
+
+#: Includes/Admin.php:283
+msgid ""
+"Users can mark their topics and replies as private, and only moderators and "
+"site admins can be able to access and view these, not excluding the topic/"
+"reply post author as well."
+msgstr ""
+
+#: Includes/Admin.php:285
+msgid ""
+"When a topic/reply is made private, the topic/reply content, excerpt, and "
+"feed will be overwritten to the cusotm notice you chose in the General "
+"Settings section. When the topic is private, the user who does not have "
+"permission to access it, will be redirected to the home page of your site "
+"(or a custom redirect using <code>se_PrivatePost_redirect</code> filter)."
+msgstr ""
+
+#: Includes/Admin.php:287
+msgid ""
+"In the admin, admins and moderators can edit topics/replies and toggle on/"
+"off making these posts private."
+msgstr ""
+
+#: Includes/Admin.php:289
+msgid "In the admin posts list, you'll get to see which are made as private."
+msgstr ""
+
+#: Includes/Admin.php:296
+#, php-format
+msgid ""
+"Thank you for using <a href=\"https://wordpress.org/plugins/bbp-private-"
+"answer/\">bbPress Private Answer ver. %s</a>!"
+msgstr ""
+
+#: Includes/Admin.php:297
+msgid "Support"
+msgstr ""
+
+#: Includes/Admin.php:298
+msgid "Contact Us"
+msgstr ""
+
+#: Includes/Admin.php:299
+msgid "Rate this plugin"
+msgstr ""
+
+#: Includes/Admin.php:300
+msgid "Fork on Github"
+msgstr ""
+
+#: Includes/Admin.php:301
+msgid "More bbPress plugins by Samuel Elh:"
+msgstr ""
+
+#: Includes/Admin.php:302
+msgid "bbPress Messages"
+msgstr ""
+
+#: Includes/Admin.php:302
+msgid ""
+"Bring private messaging feature to your forum and communicate with your "
+"community privately!"
+msgstr ""
+
+#: Includes/Admin.php:303
+msgid "bbPress Ultimate"
+msgstr ""
+
+#: Includes/Admin.php:303
+msgid ""
+"Add more user info to your forums/profiles, e.g online status, user country, "
+"social profiles and more.."
+msgstr ""
+
+#: Includes/Admin.php:304
+msgid "bbPress Thread Prefixes"
+msgstr ""
+
+#: Includes/Admin.php:304
+msgid ""
+"Easily generate prefixes for topics and assign groups of prefixes for each "
+"forum.."
+msgstr ""
+
+#: Includes/Admin.php:305
+msgid "bbPress Mentions Email Notifications"
+msgstr ""
+
+#: Includes/Admin.php:305
+msgid ""
+"If anyone mentions a user by @username on the forums, notify this user with "
+"a custom email. This feature ships with BuddyPress."
+msgstr ""
+
+#: Includes/Admin.php:306
+msgid "Subscribe for more!"
+msgstr ""
+
+#: Includes/Admin.php:307
+msgid ""
+"We have upcoming bbPress projects that we are very excited to work on. <a "
+"href=\"https://go.samelh.com/newsletter/\">Subscribe to our newsletter</a> "
+"to get them first!"
+msgstr ""
+
+#: Includes/Admin.php:308
+msgid ""
+"Need a custom bbPress plugin? <a href=\"https://samelh.com/work-with-me/"
+"\">Hire me!</a>"
+msgstr ""
+
+#: Includes/Plugin.php:107
+msgid "Mark as private"
+msgstr ""
+
+#: Includes/Plugin.php:129
+#, php-format
+msgid "[Private] %1$s"
+msgstr ""
+
+#: Includes/Plugin.php:314
+msgid "Private Post"
+msgstr ""
