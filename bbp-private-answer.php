@@ -18,7 +18,7 @@ defined('ABSPATH') || exit('Direct access not allowed.' . PHP_EOL);
   * our plugin
   */
  
-Class VersionCompare
+Class BPAVersionCompare
 {
     public $hasRequiredPHP;
     protected $min, $operator;
@@ -45,7 +45,7 @@ Class VersionCompare
     }
 }
 
-$VersionCompare = new VersionCompare('5.3');
+$VersionCompare = new BPAVersionCompare('5.3');
 
 if ( !isset($VersionCompare->hasRequiredPHP) || !$VersionCompare->hasRequiredPHP ) {
     return; // no min server requirements, stop, no more code below will be executed
